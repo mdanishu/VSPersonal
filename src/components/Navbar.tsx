@@ -3,6 +3,8 @@ import Link from 'next/link';
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-gray-800 text-white py-4">
+
+
       <div className="container mx-auto flex justify-center space-x-4">
         <Link href="/" passHref className="hover:text-gray-300">
           Home
@@ -16,6 +18,7 @@ const Navbar: React.FC = () => {
         <Link href="/contact" passHref className="hover:text-gray-300">
           Contact
         </Link>
+        
       </div>
     </nav>
   );

@@ -9,15 +9,14 @@ const About: React.FC = () => {
         <h1 className="text-4xl font-bold text-gray-800">About Me</h1>
         <div className="mt-6 text-gray-600">
           <p className="text-lg">
-            Hi there! I'm [Your Name], a passionate developer and content creator.
+          My name is Danish, founder of Viden Strategy.
           </p>
           <p className="text-lg mt-4">
-            I've been working in the tech industry for over [X] years and I specialize in
-            creating delightful web experiences with modern technologies.
+          I went to business school at Rice University and built equity analysis skills in the Wright Fund. I also built biotech consulting skills in an accelerator in the Texas Medical Center. 
           </p>
           <p className="text-lg mt-4">
-            When I'm not coding, you can find me outdoors hiking, reading a good book,
-            or exploring new coffee shops in town.
+          I have worked in science for over 10 years, the first 8 were at an academic research institution in a variety of roles including mouse models in neuroscience, regulatory affairs for pediatric oncology, and internal consulting for both the clinical and research divisions. I have 5 years of clinical research experience and do planning and strategy for a biotech.
+
           </p>
         </div>
       </main>

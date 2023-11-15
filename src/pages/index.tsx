@@ -11,9 +11,13 @@ const Home: React.FC = () => {
           <p className="text-xl text-gray-500 mt-4">
           Discover more about me, read my blog, or get in touch.
           </p>
-          <button className="bg-blue-600 text-white font-bold py-2 px-4 rounded mt-6">
+          {/* <button className="bg-blue-600 text-white font-bold py-2 px-4 rounded mt-6">
             Go to X
-          </button>
+          </button> */}
+          <a href="https://x.com/videndanish" target="_blank" rel="noopener noreferrer" 
+             className="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded mt-6 hover:bg-blue-700 focus:outline-none focus:shadow-outline">
+            Go to X
+          </a>
         </div>
       </section>
       

@@ -1,31 +1,24 @@
 import Navbar from '../components/Navbar';
 import React from 'react';
 
-type BlogPost = {
-  id: number;
-  title: string;
-  summary: string;
-};
-
-const blogPosts: BlogPost[] = [
-  { id: 1, title: 'Post One', summary: 'This is the first post.' },
-  { id: 2, title: 'Post Two', summary: 'This is the second post.' },
-  // More posts...
-];
-
 const Blog: React.FC = () => {
   return (
-    <div>
+    <div className="bg-white text-black">
       <Navbar />
       <main className="container mx-auto py-10">
-        <h1 className="text-3xl font-bold text-center">Blog</h1>
-        <div className="mt-8">
-          {blogPosts.map((post) => (
-            <article key={post.id} className="mb-4">
-              <h2 className="text-xl font-bold">{post.title}</h2>
-              <p className="text-gray-700">{post.summary}</p>
-            </article>
-          ))}
+        <h1 className="text-3xl font-bold text-center mb-58">Blog</h1>
+        <div className="text-center p-10">
+          <p className="text-xl mb-4">
+            Substack and X are where I will post my analysis and opinions.
+          </p>
+          <div className="space-x-4 mb-8">
+            {/* External links do not use the Link component */}
+            <a href="https://viden.substack.com/" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-6 py-3 rounded-md text-sm font-medium">Go to Substack</a>
+            <a href="https://x.com/videndanish" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-6 py-3 rounded-md text-sm font-medium">Go to X</a>
+          </div>
+          <div>
+           
+          </div>
         </div>
       </main>
     </div>
