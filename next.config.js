@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+<<<<<<< HEAD
 const nextConfig = {
     basePath: '/next',
     assetPrefix: '/next/'
@@ -6,3 +7,9 @@ const nextConfig = {
   
   module.exports = nextConfig
   
+=======
+const nextConfig = {}
+
+
+module.exports = nextConfig
+>>>>>>> temp-branch
