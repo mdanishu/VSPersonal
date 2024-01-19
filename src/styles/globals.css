@@ -17,7 +17,7 @@ body {
 }
 
 .sub-title {
-  @apply text-xl text-gray-500;
+  @apply text-xl text-blue-100;
 }
 
 .button {

@@ -5,8 +5,8 @@ const About: React.FC = () => {
   return (
     <>
       <Navbar />
-      <main className="container mx-auto text-center py-10">
-        <h1 className="text-4xl font-bold text-gray-800">About Me</h1>
+      <main className="container mx-auto text-center py-5 px-3 sm:px-0">
+        <h1 className="text-4xl font-bold text-blue-800">About Me</h1>
         <div className="mt-6 text-gray-600">
           <p className="text-lg">
           My name is Danish, founder of Viden Strategy.
@@ -18,6 +18,7 @@ const About: React.FC = () => {
           I have worked in science for over 10 years, the first 8 were at an academic research institution in a variety of roles including mouse models in neuroscience, regulatory affairs for pediatric oncology, and internal consulting for both the clinical and research divisions. I have 5 years of clinical research experience and do planning and strategy for a biotech.
 
           </p>
+        
         </div>
       </main>
     </>
