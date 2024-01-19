@@ -1,11 +1,14 @@
 import Navbar from '../components/Navbar';
 import React from 'react';
 import Image from 'next/image';
+import HubspotScript from '../components/HubspotScript'; // Import the HubSpot script component
+
 
 const Blog: React.FC = () => {
   return (
     <div className="bg-white text-black">
       <Navbar />
+      <HubspotScript /> {/* Include the HubSpot script component */}
       <main className="container mx-auto py-5">
         <h1 className="text-4xl font-bold text-blue-800 text-center mb-58">Links</h1>
         <div className="text-center p-3">
