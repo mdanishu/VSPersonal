@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
           About
         </Link>
         <Link href="/blog" passHref className="hover:text-gray-300">
-          Blog
+          Links
         </Link>
         <Link href="/contact" passHref className="hover:text-gray-300">
           Contact
