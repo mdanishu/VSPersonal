@@ -1,8 +1,6 @@
 import Link from 'next/link';
-import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'; // Assuming we can use react-icons, if not will use text
-// If react-icons is not installed, I will simply use text for now to avoid install steps if not needed yet. 
-// Checking package.json... I didn't see react-icons. I'll use text or simple SVGs for now or just text links.
-// Let's stick to text for simplicity and speed.
+// Icons removed to avoid extra dependencies for now
+
 
 const Footer: React.FC = () => {
     return (
