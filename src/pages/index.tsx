@@ -1,39 +1,38 @@
-import Navbar from '../components/Navbar';
-import Image from 'next/image';
 import { Analytics } from '@vercel/analytics/react';
 import ReactGA from 'react-ga';
-import HubspotScript from '../components/HubspotScript'; // Import the HubSpot script component
+import HubspotScript from '../components/HubspotScript';
 
 // For Google Analytics
 const trackingId = "G-X9TQKJ8Q0J"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
+import Hero from '../components/Hero';
+import ValueProps from '../components/ValueProps';
+
 const Home: React.FC = () => {
   return (
-    <div>
+    <>
       <Analytics />
-      <Navbar />
-      <HubspotScript /> {/* Include the HubSpot script component */}
-      {/* Pixel-inspired section */}
-      <section className="bg-blue-100">
-        <div className="container mx-auto px-4 py-1 text-center"> {/* Reduce vertical padding */}
-          <Image
-            src="/Viden Banner_transparent.png" // Path to your image
-            alt="Banner"
-            layout="responsive"
-            width={500} // These dimensions are used to calculate the aspect ratio of the image
-            height={300}
-            objectFit="contain" // This prop is used to resize and position the image within its box
-            className="mb-1" // Add margin-bottom to create space between image and h1
-          />
-          <h1 className="text-4xl font-bold text-gray-800">Insight into the modern business</h1>
-          <p className="text-xl text-gray-500 mt-4">
-            Discover more about me, Viden Strategy, read my posts, try my apps, or get in touch.
+      <HubspotScript />
+
+      <Hero />
+      <ValueProps />
+
+      {/* Call to Action Section */}
+      <section className="bg-brand-navy py-20 text-center text-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold font-serif mb-6">Ready to make better decisions?</h2>
+          <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+            Schedule a free introductory strategy session to see how we can help you grow.
           </p>
+          <a href="/contact" className="inline-block px-10 py-4 bg-brand-gold text-brand-navy font-bold rounded-lg hover:bg-white transition-colors duration-300 shadow-lg">
+            Let's Talk Strategy
+          </a>
         </div>
       </section>
-    </div>
+    </>
   );
 };
+
 
 export default Home;

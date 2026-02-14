@@ -9,9 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'brand-blue': '#007ace',
-        'brand-red': '#ff5733',
-        'brand-yellow': '#ffc300',
+        'brand-navy': '#0A192F',
+        'brand-gold': '#C5A059',
+        'brand-cream': '#F8F9FA',
+        'brand-blue': '#007ace', // Legacy, to be phased out
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
