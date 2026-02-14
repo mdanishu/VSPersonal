@@ -99,7 +99,7 @@ const Insights: React.FC = () => {
                             <div className="text-xs font-bold text-brand-gold uppercase tracking-wide mb-2">Professional</div>
                             <h3 className="text-xl font-bold text-brand-navy mb-3">LinkedIn Profile</h3>
                             <p className="text-gray-600 mb-4">
-                                Connect for professional networking, articles, and updates on Viden Strategy's growth.
+                                Connect for professional networking, articles, and updates on Viden Strategy&apos;s growth.
                             </p>
                         </div>
                         <div className="px-6 pb-6 mt-auto">

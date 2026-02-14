@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaChartLine, FaLightbulb, FaShieldAlt } from 'react-icons/fa'; // Placeholder icons text if lib missing.
+// Icons removed to avoid extra dependencies for now
 // Checking earlier: react-icons might not be there. I will use simple SVG icons or just text/emoji if needed to be safe.
 // To ensure it works without 'react-icons' install, I will use SVGs directly.
 
@@ -22,7 +22,7 @@ const ValueProps: React.FC = () => {
                         </div>
                         <h3 className="text-xl font-bold text-brand-navy mb-3">Eliminate Intuition Bias</h3>
                         <p className="text-gray-600">
-                            Move beyond "gut feeling". We deploy rigorous data analysis and visualization to reveal the true state of your business and market.
+                            Move beyond &quot;gut feeling&quot;. We deploy rigorous data analysis and visualization to reveal the true state of your business and market.
                         </p>
                     </div>
 

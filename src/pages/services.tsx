@@ -1,5 +1,4 @@
-import React from 'react';
-
+import Link from 'next/link';
 
 const Services: React.FC = () => {
     return (
@@ -27,7 +26,7 @@ const Services: React.FC = () => {
                             <li>Unit Economics Optimization</li>
                             <li>Board Advisory & Mentorship</li>
                         </ul>
-                        <a href="/contact" className="text-brand-blue font-bold hover:underline">Book a Discovery Call &rarr;</a>
+                        <Link href="/contact" className="text-brand-blue font-bold hover:underline">Book a Discovery Call &rarr;</Link>
                     </div>
                     <div className="w-full md:w-1/2 bg-brand-cream h-64 rounded-lg flex items-center justify-center p-10">
                         {/* Placeholder for illustration/icon */}
@@ -52,7 +51,7 @@ const Services: React.FC = () => {
                             <li>Automated Reporting Pipelines</li>
                             <li>Proprietary Data Scrapers</li>
                         </ul>
-                        <a href="/contact" className="text-brand-blue font-bold hover:underline">Request a Demo &rarr;</a>
+                        <Link href="/contact" className="text-brand-blue font-bold hover:underline">Request a Demo &rarr;</Link>
                     </div>
                     <div className="w-full md:w-1/2 bg-brand-cream h-64 rounded-lg flex items-center justify-center p-10">
                         {/* Placeholder for illustration/icon */}
@@ -78,7 +77,7 @@ const Services: React.FC = () => {
                             <li>Technical Feasibility Assessment</li>
                             <li>Macro Trend Reports</li>
                         </ul>
-                        <a href="/insights" className="text-brand-blue font-bold hover:underline">Read Sample Research &rarr;</a>
+                        <Link href="/insights" className="text-brand-blue font-bold hover:underline">Read Sample Research &rarr;</Link>
                     </div>
                     <div className="w-full md:w-1/2 bg-brand-cream h-64 rounded-lg flex items-center justify-center p-10">
                         {/* Placeholder for illustration/icon */}
@@ -93,11 +92,11 @@ const Services: React.FC = () => {
                 <div className="bg-brand-navy text-white rounded-xl p-12 text-center">
                     <h2 className="text-3xl font-bold font-serif mb-4">Not sure where to start?</h2>
                     <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-                        Let's have a conversation. We offer a complimentary 15-minute strategy triage to see if we're a good fit.
+                        Let&apos;s have a conversation. We offer a complimentary 15-minute strategy triage to see if we&apos;re a good fit.
                     </p>
-                    <a href="/contact" className="inline-block px-10 py-4 bg-brand-gold text-brand-navy font-bold rounded-lg hover:bg-white transition-colors duration-300">
+                    <Link href="/contact" className="inline-block px-10 py-4 bg-brand-gold text-brand-navy font-bold rounded-lg hover:bg-white transition-colors duration-300">
                         Book Your Triage Call
-                    </a>
+                    </Link>
                 </div>
 
             </main>

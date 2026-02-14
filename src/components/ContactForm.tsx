@@ -38,7 +38,7 @@ const ContactForm: React.FC = () => {
                 <div className="text-center py-10">
                     <div className="text-brand-gold text-5xl mb-4">✓</div>
                     <h3 className="text-2xl font-bold text-brand-navy mb-2">Message Sent!</h3>
-                    <p className="text-gray-600">Thanks for reaching out. I'll get back to you shortly.</p>
+                    <p className="text-gray-600">Thanks for reaching out. I&apos;ll get back to you shortly.</p>
                     <button onClick={() => setStatus('idle')} className="mt-6 text-brand-blue hover:underline">Send another message</button>
                 </div>
             ) : (

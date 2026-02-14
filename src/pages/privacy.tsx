@@ -11,7 +11,7 @@ const Privacy: React.FC = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-bold text-brand-navy mb-4">1. Introduction</h2>
                     <p>
-                        Viden Strategy ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website.
+                        Viden Strategy (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website.
                     </p>
                 </section>
 

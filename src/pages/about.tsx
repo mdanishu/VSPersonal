@@ -56,7 +56,7 @@ const About: React.FC = () => {
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-brand-navy font-serif mb-6">About Viden Strategy</h2>
         <p className="text-lg text-gray-600 mb-8">
-          Viden Strategy is more than a consultancy; it's a partner in your growth.
+          Viden Strategy is more than a consultancy; it&apos;s a partner in your growth.
           Our mission is to empower small businesses and individuals with the same level of strategic insight usually reserved for Fortune 500 companies.
         </p>
         <p className="text-lg text-gray-600">
